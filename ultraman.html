@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="ultraman.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="customHeader">
+        <div class="firstSection">
+            <span><img class="logo" src="assests/download.png"></span>
+            <span class="allCourses"><i class="fa fa-bars search" aria-hidden="true"></i> ALL COURSES</span>
+        </div>
+        <div class="secondSection">
+            <span class="options"><i class="fa fa-search search" aria-hidden="true"></i>SEARCH</span>
+            <span class="options">RESOURCES<i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            <ul class="dropList" id="droplist">
+                <li>BLOG</li>
+                <li>OPEN CAMPUS</li>
+                <li>CODE LABS</li>
+            </ul>
+            <span class="options">FOR ENTERPRISE</span>
+            <button class="loginBtn">LOGIN/SIGN UP</button>
+        </div>
+    </header>
+
+
+    <div class="content">
+        <p class="firstHead">ORGANISATIONS:<span class="subHead">Enhance Productivity through learning</span></p>
+        <p class="secondHead">INDIVIDUALS:<span class="subHead">Become Awesome at what you what to do</span></p>
+        <p class="topicHeader">Technical & Management</p>
+        <div class="courseSection">
+            <div class="subSectionOne">
+                <p class="subSectionHeader">INDIVIDUALS</p>
+                <p>Affordable, job aligned training to help you grow in career</p>
+                <button class="topicBtn">BROWSE COURSES</button>
+            </div>
+            <div class="subSectionTwo">
+                <p class="subSectionHeader">ORGANISATIONS</p>
+                <p>Upskill and Reskill employees to drive more value at work and increase workplace efficiences</p>
+                <button class="topicBtn">EXPLORE SOLUTIONS</button>
+            </div>
+        </div>
+        <div>
+            <p class="topicHeader">LEARNING PATHS</p>
+        </div>
+        <div class="courseSection">
+            <div class="leftSection">
+                <p class="subSectionHeader">IMMERSIVE INSTRUTOR-LED</p>
+                <p>Learn from experienced instructors live,and get real time hands-on knowledge on your learning track
+                </p>
+            </div>
+            <div class="rightSection">
+                <p class="subSectionHeader">ON-DEMAND SELF_PACED</p>
+                <p>Learn at your convenience,revisit sections multiple times, and practice for perfection</p>
+            </div>
+
+        </div>
+        <p class="alignCenter">
+            <button class="faqBtn">FIND THE PERFECT COURSE FOR YOU</button>
+        </p>
+        <p class="topicHeader">EMPLOYER-SPONSORED LEARNING</p>
+        <div class="imgBlock">
+            <div class="flexy">
+                <span><b class="boldText">46%</b>of our learners receive funding from their employees to take up our
+                    training programs and improve their skills</span>
+                <!-- <button class="topicBtn">LEARN HOW TO GET FUNDED</button> -->
+                <img class="fundImg" src="assests/ft.png">
+            </div>
+        </div>
+        <p class="topicHeader">START LEARNING</p>
+        <p class="subSectionHeader">TECHNOLOGY COURSES</p>
+        <div class="techCourse">
+            <div class="subBlock">
+                <p class="courseHeader">Software Engineering Immersive</p>
+                <div>
+                    <img class="topicImg" src="assests/softEng.png">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Break into a high-growth,high-pay career. Dive into computer science, get fluent in
+                    key framework and stacks, build rich apps and more.</p>
+            </div>
+            <div class="subBlock">
+                <p class="courseHeader">UX Design Immersive</p>
+                <div>
+                    <img class="topicImgTwo" src="assests/uxdi.jpg">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Begin a career in UX with a grounding in research snd design skills, from personas
+                    to prototypes. Build a portfolio rich with innovative insights.</p>
+            </div>
+            <div class="subBlock">
+                <p class="courseHeader">Data Science Immersive</p>
+                <div>
+                    <img class="topicImg" src="assests/datascience.jpg">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Master the basics of machine learning to forecast what's next; predict patterns from
+                    large datasets using Python.</p>
+            </div>
+            <div class="subBlock">
+                <p class="courseHeader">Front-End Web Development</p>
+                <div>
+                    <img class="topicImg" src="assests/frontEnd.jpg">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Use HTML5, CSS, Javascript,Jquery, Github and Sublime Text to program and lay out a
+                    fully responsoive, interactive website</p>
+            </div>
+            <div class="subBlock">
+                <p class="courseHeader">Product Management</p>
+                <div>
+                    <img class="topicImg" src="assests/pjm.png">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Guide a product through its lifecycle via lean methodologies that yield viable,
+                    market ready products that anticipate user needs.</p>
+            </div>
+            <div class="subBlock">
+                <p class="courseHeader">Data Analytics</p>
+                <div>
+                    <img class="topicImg" src="assests/DataAnalytics.jpg">
+                </div>
+                <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                <p class="type">ON CAMPUS | FULL TIME</p>
+                <p class="descrptn">Learn to present and communicate data-driven insights via SQL, Excel, and Tableau.
+                    Create data visualizations and dashboards</p>
+            </div>
+        </div>
+        <div>
+            <button class="topicBtn" onclick="showCourses()">BROWSE COURSES</button>
+        </div>
+        <div id="techCourseTwo">
+            <p class="subSectionHeader">MANAGEMENT COURSES</p>
+            <div class="manageCourses">
+                <div class="subBlock">
+                    <p class="courseHeader">Software Engineering Immersive</p>
+                    <div>
+                        <img class="topicImg" src="assests/softEng.png">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Break into a high-growth,high-pay career. Dive into computer science, get fluent
+                        in
+                        key framework and stacks, build rich apps and more.</p>
+                </div>
+                <div class="subBlock">
+                    <p class="courseHeader">UX Design Immersive</p>
+                    <div>
+                        <img class="topicImgTwo" src="assests/uxdi.jpg">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Begin a career in UX with a grounding in research snd design skills, from
+                        personas
+                        to prototypes. Build a portfolio rich with innovative insights.</p>
+                </div>
+                <div class="subBlock">
+                    <p class="courseHeader">Data Science Immersive</p>
+                    <div>
+                        <img class="topicImg" src="assests/datascience.jpg">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Master the basics of machine learning to forecast what's next; predict patterns
+                        from
+                        large datasets using Python.</p>
+                </div>
+                <div class="subBlock">
+                    <p class="courseHeader">Front-End Web Development</p>
+                    <div>
+                        <img class="topicImg" src="assests/frontEnd.jpg">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Use HTML5, CSS, Javascript,Jquery, Github and Sublime Text to program and lay
+                        out a
+                        fully responsoive, interactive website</p>
+                </div>
+                <div class="subBlock">
+                    <p class="courseHeader">Product Management</p>
+                    <div>
+                        <img class="topicImg" src="assests/pjm.png">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Guide a product through its lifecycle via lean methodologies that yield viable,
+                        market ready products that anticipate user needs.</p>
+                </div>
+                <div class="subBlock">
+                    <p class="courseHeader">Data Analytics</p>
+                    <div>
+                        <img class="topicImg" src="assests/DataAnalytics.jpg">
+                    </div>
+                    <span class="arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                    <p class="type">ON CAMPUS | FULL TIME</p>
+                    <p class="descrptn">Learn to present and communicate data-driven insights via SQL, Excel, and
+                        Tableau.
+                        Create data visualizations and dashboards</p>
+                </div>
+            </div>
+            <div>
+                <button class="topicBtn">BROWSE COURSES</button>
+            </div>
+        </div>
+
+
+        <p class="topicHeader">MAKING LEARNING ACCESSIBLE TO EVERYONE</p>
+        <div>
+            <div class="types">
+                <p>OPEN CAMPUS</p>
+                <div class="textLeft">
+                    <img class="typeImg" src="assests/ft.png">
+                </div>
+                <div>
+                    <span>Read upon the latest and hottest topics in the technology and management domains</span>
+                </div>
+            </div>
+
+            <div class="types">
+                <p>CODELABS</p>
+                <div class="textLeft">
+                    <img class="typeImg" src="assests/ft.png">
+                </div>
+                <div>
+                    <span>Read upon the latest and hottest topics in the technology and management domains</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="campusBlog">
+            <p>THE GREYCAMPUS BLOG</p>
+            <div class="textLeft">
+                <img class="typeImg" src="assests/ft.png">
+            </div>
+            <div>
+                <span>Read upon the latest and hottest topics in the technology and management domains</span>
+            </div>
+        </div>
+        <section>
+            <img class='messi' src='assests/Messi.jpg' />
+            <span class='belowMessi'>"I now have a fulfillingrole in web design that I actually enjoy working in.The skills I've learned in the angular course have really helped,even beyond landing this job."
+                    <span class='signature'>
+                            Jane Doe - 
+                            SoftWare Programmer
+                        </span>
+            </span>
+
+        </section>
+        <div>
+
+            <p class="topicHeader"> OUR LEARNERS COME FROM</p>
+
+        </div>
+        <div>
+            <p class="userCompanies">
+            <span class="company">Google</span>
+            <span class="company">Microsoft</span>
+            <span class="company">Salesforce</span>
+            <span class="company">SPX Flow</span>
+            <span class="company">CIA</span>
+            <span class="company">ANL</span>
+        </p>
+        </div>
+        <div>
+            <span>
+                <p>ACCREDITIONS</p>
+                <span class='inline'>We're globally accredited for the relevant courses by global bodies that include</span>
+            </span>
+            <span class='inline'>
+                <button>PMI</button>
+                <button>PRINCE2</button>
+                <button>ITIL</button>
+                <button>LEAN SIX SIGMA</button>
+            </span>
+        </div>
+
+    </div>
+
+
+    <footer class="customFooter">
+        <div class="container">
+            <div class="footerSection">
+                <h2>COMPANY</h2>
+                <ul class="customUl">
+                    <li class="liBottom"><a href="#">About Us</a></li>
+                    <li class="liBottom"><a href="#">Contact Us</a></li>
+                    <li class="liBottom"><a href="#">Privacy Policy</a></li>
+                    <li class="liBottom"><a href="#">Cookie Policy</a></li>
+                    <li class="liBottom"><a href="#">Terms of use</a></li>
+                    <li class="liBottom"><a href="#">Customer Speak</a></li>
+                </ul>
+            </div>
+            <div class="footerSection">
+                <h2>CONNECT</h2>
+                <ul class="customUl">
+                    <li class="liBottom"><a href="#"><i class="fa fa-envelope g-mr-5"></i><span
+                                class="gap">sales@greyucampus.com</span></a></li>
+                    <li class="liBottom"><a href="#"><i class="fa fa-envelope g-mr-5"></i><span
+                                class="gap">support@greyucampus.com</span></a></li>
+                    <li class="liBottom"><a href="#"><i class="fa fa-phone g-mr-5"></i><img class="gap"
+                                src="assests/usa.jpeg"><span class="gap">USA +1 855 542 2678</span></a></li>
+                    <li class="liBottom"><a href="#"><i class="fa fa-phone g-mr-5"></i><img class="gap"
+                                src="assests/usa.jpeg"><span class="gap">USA +1 347 994 9941</span></a></li>
+                    <li class="liBottom"><a href="#"><i class="fa fa-phone g-mr-5"></i><img class="gap"
+                                src="assests/india.jpeg"><span class="gap">IND +91 741 666 4433</span></a></li>
+                    <li class="liBottom"> <a href="#"><i class="fa fa-phone g-mr-5"></i><img class="gap"
+                                src="assests/hkg.png"><span class="gap">HKG +852 5808 4350</span></a></li>
+                </ul>
+            </div>
+            <div class="footerSection">
+                <h2>ENQUIRES</h2>
+                <ul class="customUl">
+                    <li class="liBottom"><a href="#">Teach for us</a></li>
+                    <li class="liBottom"><a href="#">Create a course</a></li>
+                    <li class="liBottom"><a href="#">Become our affiliate</a></li>
+                    <li class="liBottom"><a href="#">Cookie Policy</a></li>
+                    <li class="liBottom"><a href="#">Work with us</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="ultraman.js"></script>
+
+</html>

@@ -1,0 +1,417 @@
+.customHeader{
+    background-color: #fff;
+    color: #787878;
+    border-bottom: 1px solid grey;
+    box-shadow:0 8px 7px 0 rgba(9, 0, 0, 0.12);
+}
+.logo{
+    height: 55px;
+    width: 55px;
+}
+.messi{
+    width:45%;
+    display: inline-block;
+
+}
+.belowMessi{
+    width:45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left:10px;
+    font-size: 16px;
+    margin-top:20px;    color: #787878;
+}
+.signature{
+    margin-top: 20px;
+    display: inline-block;    color: #787878;
+}
+.dropList{
+    border: 1px solid #fff;
+    box-shadow:0 8px 7px 0 rgba(9, 0, 0, 0.12);
+background-color: #fff;
+color:#787878;
+    display: none;
+}
+.loginBtn{
+    border: 1px solid #787878;
+    background: #fff;
+    padding:10px;
+    color: #787878;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.firstSection{
+    display: inline-block;width:30%;
+}
+.secondSection{
+    margin-top: 10px;
+    display:inline-block;
+    float: right;width:70%;  text-align: right; 
+}
+.options{
+margin-left: 20px;
+}
+.allCourses{
+    margin-left: 5px;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 13px;
+}
+.search{
+    margin-right: 5px;
+}
+.firstHead{
+color: #053c6d;
+font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
+font-size: 22px;
+}
+.secondHead{
+    color: #f87000;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.subHead{
+    color: #4c4c4c;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subDesc{
+    color: #4c4c4c;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.subSectionOne{
+    display: inline-block;
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 10px;
+
+}
+.subSectionOne:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.subSectionTwo{
+    display: inline-block;
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    float: right;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 10px;
+}
+.subSectionTwo:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.content{
+    background-color:#fff;
+    padding: 15px;
+    margin-top: 3px;
+}
+.headings{
+    color: #fff;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    padding: 15px;
+}
+.topicHeader{
+    color: #053c6d;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+.courseSection{
+    width: 100%;
+    margin: auto;
+}
+.topicBtn{
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px solid #787878;
+    background: #fff;
+    padding:10px;
+    color: #053c6d;
+    border-radius: 3px;
+}
+.subSectionHeader{
+    color:#053c6d;
+}
+.leftSection{
+    display: inline-block;
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    border-right: 1px solid orange;
+    text-align: center;
+}
+.rightSection{
+    display: inline-block;
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    text-align: center;
+}
+.faqBtn{
+    background-color:#053c6d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    width: 50%;
+}
+.alignCenter{
+    text-align: center;
+}
+.boldText{
+    color: #f87000;
+}
+.imgBlock{
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 10px;
+    margin: auto;
+}
+.flexy{
+    display: flex;
+}
+.imgBlock:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.techCourse{
+    background-color:#fdfdfd;
+    padding: 10px;
+}
+.subBlock{
+    width: 30%;
+    background-color: #fff;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 5px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.subBlock:hover{
+    transform: scale(1.05);
+    transition: 0.3s; 
+}
+.arrow{
+    float: right;
+    color: orange;
+}
+.type{
+    color: #787878; 
+    text-align: center;
+}
+.descrptn{
+    color: #4c4c4c; 
+    text-align: center; 
+}
+.topicImg{
+    display: flex;
+    margin: auto;
+    max-width: 75%;
+}
+.courseHeader{
+    color: #0075be;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#techCourseTwo{
+    display: none;   
+}
+.manageCourses{
+    margin-top: 15px;
+    background-color:#fdfdfd;
+    padding: 10px;
+    display: block;
+}
+.fundImg{
+    max-width: 50%;
+    height:150px;
+}
+.types{
+    display:inline-block;
+    width: 45%;
+    background: #fff;
+    color: #4c4c4c;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+}
+.typeImg{
+    max-width: 100%;
+    height: 85px;
+}
+.textLeft{
+    display: inline-block;
+    float: left;
+}
+.campusBlog{
+    background: #fff;
+    color: #4c4c4c;
+    box-shadow: -1px 1px 11px 3px rgba(154, 154, 154, 0.23);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: inline-block; 
+    margin-left: 27.5%;
+    width: 45%
+}
+.userImg{
+    width:170px;
+    height:170px;
+    margin-right:15px;
+    float: left;
+}
+.conclusion{
+    width: 40%;
+    display: inline-block;
+    color: #f87000
+}
+.mid{
+    color: #053c6d;
+    width: 10%;
+    display: inline-block; 
+}
+.footerSection{
+width: 33%;
+display: inline-block;
+color: #fff;
+}
+.customFooter{
+background: black;
+}
+.customUl{
+    list-style-type: none;
+}
+.container{
+    padding: 10px;
+}
+.liBottom{
+    margin-bottom: 4px;
+}
+.gap{
+    margin-left: 5px;
+}
+a{
+    color: #fff;
+}
+.userCompanies{
+text-align: center;
+}
+.company{
+    color:#0075be;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px; 
+}
+
+
+@media only screen and (min-width: 412px) and (max-width: 615px)   {
+    .subSectionOne{
+        width: 100%; 
+        margin-bottom: 5px;
+    }
+    .firstSection{
+        font-size: 10px;
+    }
+    .secondSection{
+        font-size: 10px;
+    }
+    .loginBtn{
+        padding:3px;
+    }
+    .subSectionTwo{
+        width: 100%;
+        float: none;
+    }
+    .imgBlock{
+        width: 100%;
+    }
+    .subBlock{
+        width: 100%;
+    }
+    .types{
+        width: 100%;
+    }
+    .footerSection{
+        width: 100%; 
+    }
+    .campusBlog{
+        margin-left: 0.5%;
+        width: 100%
+    }
+  }
+  @media only screen and (min-width: 312px) and (max-width: 411px)   {
+    .subSectionOne{
+        width: 100%; 
+        margin-bottom: 5px;
+    }
+    .subSectionTwo{
+        width: 100%;
+        float: none;
+    }
+    .imgBlock{
+        width: 100%;
+    }
+    .subBlock{
+        width: 100%;
+    }
+    .types{
+        width: 100%;
+    }
+    .campusBlog{
+        width: 100%;  
+    }
+    .footerSection{
+        width: 100%; 
+    }
+    .campusBlog{
+        margin-left: 0.5%;
+        width: 100%
+    }
+    .firstSection{
+        font-size: 10px;
+    }
+    .secondSection{
+        font-size: 10px;
+    }
+    .loginBtn{
+        padding:3px;
+    }
+  }
+  @media only screen and (min-width: 616px) and (max-width: 730px)   {
+    .subBlock{
+        width: 44%;
+    }
+    .firstSection{
+        font-size: 13px;
+    }
+    .secondSection{
+        font-size: 13px;
+    }
+    .loginBtn{
+        padding:10px;
+    }
+  }
+  .topicImgTwo{
+    display: flex;
+    margin: auto;
+    max-width: 69%; 
+  }
+
+
